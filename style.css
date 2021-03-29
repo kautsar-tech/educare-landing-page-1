@@ -1855,8 +1855,7 @@ body {
     }
 
     .gambar-inti-bagian-header-bawah {
-        width: 150px;
-        top: -20px;
+        display: none;
     }
 
     .hamburger-menu {
@@ -1876,11 +1875,27 @@ body {
         margin-left: -15px;
     }
 
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.2);
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
     .kumpulan-tulisan-bagian-header-bawah {
-        transform: scale(.4);
-        margin-left: -95px;
+        transform: scale(.47);
+        margin-left: 0px;
         width: 420px;
-        margin-top: -115px;
+        text-align: center;
+        margin-top: -110px;
+    }
+
+    .tulisan-inti-bagian-header-bawah {
+        margin-left: -40px;
+    }
+
+    .link-inti-bagian-header-bawah {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .bagian-isi-bawah {
@@ -1925,6 +1940,9 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -10px;
+    }
 
     .bagian-isi-atas {
         margin-left: -190px;
@@ -1947,6 +1965,10 @@ body {
         margin-left: 18px;
     }
 
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -15px;
+    }
+
     .bagian-isi-atas {
         margin-left: -198px;
     }
@@ -1967,6 +1989,10 @@ body {
     .bagian-isi-atas {
         margin-left: -206px;
     }
+
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -20px;
+    }
 }
 
 @media screen and (max-width: 385px) {
@@ -1978,6 +2004,10 @@ body {
 @media screen and (max-width: 380px) {
     .gambar-plus-bagian-isi-bawah {
         display: none;
+    }
+
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -26px;
     }
 
     .bagian-isi-atas {
@@ -2013,12 +2043,20 @@ body {
 }
 
 @media screen and (max-width: 365px) {
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -30px;
+    }
+
     .bagian-isi-atas {
         margin-left: -220px;
     }
 }
 
 @media screen and (max-width: 350px) {
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.22);
+    }
+
     .kumpulan-tulisan-bagian-isi-atas {
         transform: scale(1.05);
         margin-left: 5px;
@@ -2035,17 +2073,10 @@ body {
         margin-left: -225px;
     }
 
-    .gambar-inti-bagian-header-bawah {
-        top: 90px;
-        width: 90px;
-    }
-
     .kumpulan-tulisan-bagian-header-bawah {
         transform: scale(.45);
         text-align: center;
-        margin-left: -87px;
-        margin-top: -110px;
-        width: 500px;
+        margin-left: -36px;
     }
 
     .link-inti-bagian-header-bawah {
@@ -2113,29 +2144,22 @@ body {
 }
 
 @media screen and (max-width: 340px) {
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -45px;
+    }
 
     .bagian-isi-atas {
         margin-left: -232px;
     }
 }
 
-@media screen and (max-width: 335px) {
-
-    .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -92px;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .gambar-inti-bagian-header-bawah {
-        width: 80px;
-        top: 105px;
-    }
-}
-
 @media screen and (max-width: 325px) {
     .kumpulan-tulisan-bagian-isi-bawah {
         margin-left: -140px;
+    }
+
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -52px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
@@ -2148,6 +2172,9 @@ body {
 }
 
 @media screen and (max-width: 316px) {
+    .kumpulan-tulisan-bagian-header-bawah {
+        margin-left: -57px;
+    }
 
     .bagian-isi-atas {
         margin-left: -244px;
@@ -2157,11 +2184,6 @@ body {
 @media screen and (max-width: 315px) {
     .bagian-footer-atas {
         margin-left: 45px;
-    }
-
-
-    .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -100px;
     }
 }
 
@@ -2191,6 +2213,7 @@ body {
 
     .kumpulan-tulisan-bagian-header-bawah {
         margin-top: -120px;
+        margin-left: -62px;
     }
 
     .gambar-kubik-bagian-header-bawah-a {
@@ -2286,10 +2309,6 @@ body {
         transform: scale(.3);
         margin-top: -475px;
     }
-
-    .gambar-inti-bagian-header-bawah {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 305px) {
@@ -2298,13 +2317,13 @@ body {
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -105px;
+        margin-left: -64px;
     }
 }
 
 @media screen and (max-width: 292px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -108px;
+        margin-left: -68px;
     }
 
     .bagian-isi-atas {
@@ -2331,8 +2350,9 @@ body {
 
 @media screen and (max-width: 283px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -112px;
+        margin-left: -71px;
     }
+
 
     .bagian-isi-atas {
         margin-left: -261px;
@@ -2361,7 +2381,7 @@ body {
 
 @media screen and (max-width: 273px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -115px;
+        margin-left: -76px;
     }
 
     .bagian-isi-atas {
@@ -2370,10 +2390,6 @@ body {
 }
 
 @media screen and (max-width: 270px) {
-    .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -120px;
-    }
-
     .kumpulan-card-bagian-isi-bawah {
         margin-left: -18px;
     }
@@ -2473,14 +2489,14 @@ body {
 
     .kumpulan-tulisan-bagian-header-bawah {
         transform: scale(.4);
-        margin-top: -130px;
-        margin-left: -123px;
+        margin-top: -135px;
+        margin-left: -85px;
     }
 }
 
 @media screen and (max-width: 252px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -128px;
+        margin-left: -90px;
     }
 
     .bagian-isi-atas {
@@ -2506,7 +2522,7 @@ body {
 
 @media screen and (max-width: 240px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -131px;
+        margin-left: -92px;
     }
 
     .bagian-isi-atas {
@@ -2531,7 +2547,7 @@ body {
 
 @media screen and (max-width: 230px) {
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: -137px;
+        margin-left: -95px;
     }
 
     .bagian-isi-atas {
