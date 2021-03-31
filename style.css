@@ -468,8 +468,8 @@ body {
     width: 300px;
     height: 300px;
     bottom: -125px;
-    border-radius: 50%;
     right: -20px;
+    border-radius: 50%;
 }
 
 .lingkaran-warna-bagian-isi-atas-1 {
@@ -487,7 +487,6 @@ body {
 .lingkaran-warna-bagian-isi-atas-4 {
     background: #0A314A;
 }
-
 
 .bagian-isi-bawah {
     margin-top: -50px;
@@ -741,6 +740,21 @@ body {
 
 /* Media Query atau Responsive */
 @media screen and (max-width: 1200px) {
+    .tulisan-inti-card-bagian-isi-bawah{
+        transform: scale(1.15);
+        margin-top: 15px;
+    }
+
+    .tulisan-kecil-card-bagian-isi-bawah{
+        transform: scale(1.15);
+        margin-top: 25px;
+    }
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.25);
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.85);
         position: relative;
@@ -832,6 +846,12 @@ body {
     }
 }
 
+@media screen and (max-width: 1130px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        width: 900px;
+    }
+}
+
 @media screen and (max-width: 1030px) {
     .none {
         position: absolute;
@@ -862,13 +882,13 @@ body {
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        width: 940px;
+        width: 1000px;
         justify-content: space-between;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.65);
-        width: 950px;
+        width: 1030px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -918,7 +938,7 @@ body {
 
     .kumpulan-tulisan-bagian-isi-bawah {
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: -15px;
     }
 
     .gambar-kubik-bagian-isi-bawah-1 {
@@ -941,7 +961,7 @@ body {
     }
 
     .bagian-isi-bawah {
-        padding-bottom: 10px;
+        padding-bottom: 80px;
         margin-top: -170px;
     }
 
@@ -1011,6 +1031,13 @@ body {
 
 }
 
+
+@media screen and (max-width: 1020px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -25px;
+    }
+}
+
 @media screen and (max-width: 970px) {
 
     .bagian-isi-atas,
@@ -1018,8 +1045,38 @@ body {
         margin-left: -35px;
     }
 
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -45px;
+    }
+
     .kumpulan-card-bagian-isi-bawah {
         margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -60px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .gambar-kubik-bagian-isi-bawah-1 {
+        top: 235px;
+        width: 45px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        width: 980px;
+        margin-left: -65px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -40px;
     }
 }
 
@@ -1030,8 +1087,36 @@ body {
         margin-left: -60px;
     }
 
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -75px;
+    }
+
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -40px;
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .gambar-kubik-bagian-isi-bawah-1 {
+        display: none;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -85px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -95px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -70px;
     }
 }
 
@@ -1059,6 +1144,7 @@ body {
         position: relative;
         height: 310px;
     }
+
 }
 
 @media screen and (max-width: 863px) {
@@ -1095,22 +1181,12 @@ body {
 }
 
 @media screen and (max-width: 860px) {
-
-    .kumpulan-tulisan-bagian-header-bawah {
-        margin-left: 25px;
-    }
-
     .bagian-header-atas-2 {
         padding-left: 65px;
     }
 
-    .bagian-isi-atas,
-    .kumpulan-tulisan-bagian-isi-bawah {
+    .bagian-isi-atas {
         margin-left: -85px;
-    }
-
-    .kumpulan-card-bagian-isi-bawah {
-        margin-left: -65px;
     }
 
     .gambar-inti-bagian-header-bawah {
@@ -1121,6 +1197,17 @@ body {
 
     .bagian-header-bawah {
         height: 380px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -105px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -80px;
     }
 }
 
@@ -1138,6 +1225,27 @@ body {
     .bagian-header-atas-2 {
         padding-left: 45px;
     }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -110px;
+        width: 950px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -90px;
+    }
+
+}
+
+@media screen and (max-width: 815px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -120px;
+        width: 950px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -100px;
+    }
 }
 
 @media screen and (max-width: 810px) {
@@ -1145,7 +1253,7 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
         width: 800px;
-        margin-top: -120px;
+        margin-top: -130px;
         margin-left: -10px;
     }
 
@@ -1161,6 +1269,8 @@ body {
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.51);
         margin-top: 20px;
+        width: 980px;
+        margin-left: -105px;
     }
 
     .gambar-plus-bagian-isi-bawah-1 {
@@ -1171,6 +1281,12 @@ body {
         width: 75px;
     }
 
+    .gambar-kubik-bagian-isi-bawah-1 {
+        display: block;
+        width: 40px;
+        top: 201px;
+    }
+
     .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
         transform: scale(.7);
         bottom: -30px;
@@ -1178,8 +1294,12 @@ body {
     }
 
     .bagian-isi-bawah {
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         height: 1070px;
+    }
+
+    .card-bagian-isi-bawah {
+        height: 390px;
     }
 }
 
@@ -1207,6 +1327,16 @@ body {
     }
 }
 
+@media screen and (max-width: 760px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -25px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -120px;
+    }
+}
+
 @media screen and (max-width: 755px) {
     .gambar-kubik-bagian-header-bawah-1 {
         width: 60px;
@@ -1215,14 +1345,6 @@ body {
 
     .gambar-kubik-bagian-header-bawah-a {
         width: 20px;
-    }
-
-    .kumpulan-card-bagian-isi-bawah {
-        margin-left: -33px;
-    }
-
-    .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -105px;
     }
 
     .bagian-isi-atas {
@@ -1260,9 +1382,22 @@ body {
         margin-top: -200px;
         margin-left: -35px;
     }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -135px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -40px;
+    }
 }
 
 @media screen and (max-width: 725px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        width: 940px;
+        margin-left: -125px;
+    }
+
     .kumpulan-informasi-dari-kumpulan-inti-footer {
         transform: scale(.7);
         margin-top: -15px;
@@ -1284,12 +1419,12 @@ body {
 }
 
 @media screen and (max-width: 715px) {
-    .kumpulan-card-bagian-isi-bawah {
-        margin-left: -53px;
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -135px;
     }
 
-    .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -125px;
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -50px;
     }
 }
 
@@ -1332,7 +1467,8 @@ body {
 
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.45);
-        margin-left: -140px;
+        margin-left: -170px;
+        width: 1000px;
         margin-top: -5px;
     }
 
@@ -1343,7 +1479,8 @@ body {
 
     .kumpulan-card-bagian-isi-bawah {
         transform: scale(.65);
-        margin-top: -150px;
+        margin-top: -165px;
+        margin-left: -55px;
     }
 
     .gambar-kubik-bagian-isi-bawah-2 {
@@ -1370,11 +1507,11 @@ body {
 
 @media screen and (max-width: 670px) {
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -170px;
+        margin-left: -185px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -80px;
+        margin-left: -70px;
     }
 
     .bagian-footer-atas {
@@ -1482,6 +1619,14 @@ body {
     .bagian-isi-atas {
         margin-left: -90px;
     }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -197px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -85px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -1513,10 +1658,42 @@ body {
 
 
 @media screen and (max-width: 615px) {
+    .tulisan-kecil-card-bagian-isi-bawah {
+        width: 200px;
+    }
+    .card-bagian-isi-bawah-3 {
+        margin-top: 50px !important;
+    }
+    .tulisan-inti-bagian-isi-bawah {
+        transform: scale(1.3);
+        margin-left: 70px;
+    }
+
+    .card-bagian-isi-bawah {
+        height: 440px;
+        width: 340px;
+    }
+
+    .tulisan-inti-card-bagian-isi-bawah {
+        transform: scale(1.3);
+        margin-top: 20px;
+    }
+
+    .tulisan-kecil-card-bagian-isi-bawah {
+        transform: scale(1.35);
+        margin-top: 45px;
+    }
+
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.45);
+        margin-top: 35px;
+        margin-left: 55px;
+    }
+
     .kumpulan-card-bagian-isi-bawah {
         transform: scale(.5);
         margin-top: -260px;
-        margin-left: -100px;
+        margin-left: -97px;
     }
 
     .bagian-isi-atas {
@@ -1532,16 +1709,20 @@ body {
         width: 45px;
     }
 
+    .gambar-kubik-bagian-isi-bawah-2 {
+        bottom: 60px;
+    }
+
     .gambar-kubik-bagian-isi-bawah-1 {
         width: 35px;
-        top: 150px;
+        top: 158px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.37);
-        margin-left: -195px;
+        margin-left: -200px;
         width: 1000px;
-        margin-top: -30px;
+        margin-top: -20px;
     }
 
     .gambar-kubik-bagian-isi-bawah-2 {
@@ -1549,22 +1730,24 @@ body {
     }
 
     .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
-        transform: scale(.5);
-        bottom: -45px;
-        left: -40px;
+        transform: scale(.6);
+        bottom: -40px;
+        left: -25px;
     }
 
     .bagian-isi-bawah {
-        height: 760px;
+        height: 910px;
+        padding-bottom: 0px;
     }
 
     .tulisan-inti-bagian-footer-atas {
-        transform: scale(.6);
+        transform: scale(.7);
+        margin-top: -35px;
     }
 
     .kumpulan-gambar-kampus-bagian-footer-atas {
-        transform: scale(.6);
-        margin-top: -20px;
+        transform: scale(.7);
+        margin-top: -10px;
         margin-left: -165px;
     }
 
@@ -1589,10 +1772,12 @@ body {
 @media screen and (max-width: 590px) {
     .kumpulan-tulisan-bagian-isi-bawah {
         width: 940px;
+        margin-left: -210px;
+        width: 990px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -120px;
+        margin-left: -110px;
     }
 }
 
@@ -1602,9 +1787,9 @@ body {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 585px) {
     .bagian-footer-atas {
-        margin-left: 45px;
+        margin-left: 57px;
     }
 }
 
@@ -1656,9 +1841,9 @@ body {
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
-        transform: scale(.5);
-        margin-left: -100px;
-        margin-top: -65px;
+        transform: scale(.6);
+        margin-left: -80px;
+        margin-top: -45px;
     }
 
     .bagian-header-bawah {
@@ -1667,23 +1852,39 @@ body {
 
     .gambar-kubik-bagian-header-bawah-1 {
         width: 45px;
-        bottom: 10px;
+        bottom: -10px;
     }
 
     .bagian-isi-atas {
         margin-left: -125px;
-        margin-top: -315px;
+        margin-top: -310px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -220px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -122px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .bagian-footer-atas {
+        margin-left: 46px;
     }
 }
 
 @media screen and (max-width: 545px) {
     .kumpulan-tulisan-bagian-isi-bawah {
-        width: 870px;
-        margin-left: -190px;
+        width: 950px;
+        margin-left: -220px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -140px;
+        margin-left: -132px;
     }
 }
 
@@ -1715,17 +1916,33 @@ body {
     .bagian-footer-bawah {
         height: 220px;
     }
-}
 
-@media screen and (max-width: 525px) {
     .bagian-footer-atas {
-        margin-left: 25px;
+        margin-left: 37px;
     }
 }
 
 @media screen and (max-width: 520px) {
+    .bagian-footer-atas {
+        margin-left: 30px;
+    }
+
     .bagian-isi-atas {
         margin-left: -145px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -228px;
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -142px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .bagian-footer-atas {
+        margin-left: 22px;
     }
 }
 
@@ -1733,25 +1950,72 @@ body {
     .bagian-isi-atas {
         margin-left: -155px;
     }
-}
-
-@media screen and (max-width: 490px) {
-    .bagian-footer-atas {
-        margin-left: 10px;
-    }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        width: 810px;
+        margin-left: -238px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -165px;
+        margin-left: -150px;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .bagian-isi-atas {
-        margin-left: -162px;
+@media screen and (max-width: 490px) {
+    .gambar-kubik-bagian-isi-bawah-1 {
+        display: none;
+    }
+
+    .bagian-footer-bawah {
+        margin-top: -30px;
+    }
+
+    .bagian-footer-atas {
+        margin-left: 90px;
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        width: 900px;
+        margin-left: -233px
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -160px;
+    }
+
+    .tulisan-inti-bagian-footer-atas {
+        transform: scale(.75);
+        margin-left: -50px;
+    }
+
+    .gambar-inti-bagian-header-bawah {
+        width: 170px;
+        top: 20px;
+    }
+
+    .kumpulan-gambar-kampus-bagian-footer-atas {
+        transform: scale(.72);
+        width: 300px;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (max-width: 477px) {
+    .bagian-footer-atas {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -243px
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -172px;
     }
 }
 
@@ -1759,11 +2023,25 @@ body {
     .bagian-isi-atas {
         margin-left: -170px;
     }
+
+    .gambar-plus-bagian-isi-bawah-1 {
+        right: 10px;
+    }
 }
 
 @media screen and (max-width: 460px) {
     .bagian-footer-atas {
-        margin-left: 0px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -250px
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -180px;
     }
 }
 
@@ -1794,13 +2072,23 @@ body {
 }
 
 @media screen and (max-width: 445px) {
-    .kosong {
-        top: -50px;
+    .gambar-kubik-bagian-isi-bawah-2 {
+        bottom: 50px;
     }
 
-    .navbar-hamburger-menu {
-        font-size: 13px;
-        height: 45px;
+    .tulisan-inti-bagian-isi-atas {
+        transform: scale(1.3);
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+
+    .gambar-logo-educare-bagian-header-atas-2 {
+        margin-left: -10px;
+
+    }
+
+    .kosong {
+        top: -50px;
     }
 
     .link-inti-bagian-header-bawah {
@@ -1812,81 +2100,78 @@ body {
     }
 
     .bagian-footer-atas {
-        width: 360px;
-        margin-top: 35px;
-        margin-left: 30px;
+        margin-top: 30px;
+        margin-left: 65px;
     }
 
     .kumpulan-gambar-kampus-bagian-footer-atas {
-        transform: scale(.48);
-        margin-top: -55px;
-        margin-left: -210px;
-    }
-
-    .tulisan-inti-bagian-footer-atas {
-        transform: scale(.48);
-        margin-left: -20px;
+        transform: scale(.7);
+        margin-top: -65px;
+        margin-left: -5px;
     }
 
     .bagian-isi-atas {
-        transform: scale(.38);
-        margin-top: -415px;
+        transform: scale(.4);
+        margin-top: -390px;
         margin-left: -180px;
     }
 
     .bagian-header-bawah {
-        height: 200px;
+        height: 270px;
     }
 
     .gambar-kubik-bagian-header-bawah-1 {
         left: 20px;
-        width: 35px;
+        width: 38px;
         bottom: 20px;
     }
 
     .gambar-kubik-bagian-header-bawah-a {
-        width: 13px;
-        top: -45px;
+        width: 14px;
+        top: -35px;
     }
-
-    .kumpulan-navbar-hamburger-menu {
-        height: 180px;
-        top: 54px;
-    }
-
     .gambar-inti-bagian-header-bawah {
         display: none;
     }
 
     .hamburger-menu {
-        transform: scale(.65);
         right: 15px;
-        top: 23px;
     }
 
-    .bagian-header-atas-2 {
-        padding-top: 5px;
-        padding-left: 0px;
-        padding-bottom: 5px;
+    .lingkaran-warna-bagian-isi-atas {
+        width: 250px;
+        height: 250px;
+        bottom: -105px;
+        right: -10px;
     }
 
-    .gambar-logo-educare-bagian-header-atas-2 {
-        transform: scale(.5);
-        margin-left: -15px;
+    .gambar-bagian-isi-atas {
+        transform: scale(.9);
+        margin-right: -50px;
+        margin-top: 30px;
+    }
+
+    .gambar-bagian-isi-atas-1 {
+        margin-right: -10px;
+        margin-top: 60px;
+    }
+
+    .gambar-titik-titik-bagian-isi-atas {
+        bottom: 25px;
     }
 
     .tulisan-kecil-bagian-isi-atas {
-        transform: scale(1.2);
-        margin-top: 25px;
-        margin-left: 30px;
+        transform: scale(1.45);
+        margin-top: 45px;
+        margin-left: 53px;
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
-        transform: scale(.47);
+        transform: scale(.65);
         margin-left: 0px;
         width: 420px;
         text-align: center;
-        margin-top: -110px;
+        margin-top: -70px;
     }
 
     .tulisan-inti-bagian-header-bawah {
@@ -1899,28 +2184,28 @@ body {
     }
 
     .bagian-isi-bawah {
-        margin-top: -380px;
+        margin-top: -360px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        transform: scale(.3);
-        margin-left: -235px;
+        transform: scale(.33);
+        margin-left: -250px;
         width: 900px;
-        margin-top: -50px;
+        margin-top: -30px;
     }
 
     .gambar-plus-bagian-isi-bawah-1 {
-        width: 38px;
+        width: 45px;
     }
 
     .gambar-kubik-bagian-isi-bawah-1 {
         width: 25px;
-        top: 118px;
+        top: 148px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        transform: scale(.4);
-        margin-top: -310px;
+        transform: scale(.45);
+        margin-top: -290px;
         margin-left: -180px;
     }
 
@@ -1929,13 +2214,13 @@ body {
     }
 
     .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
-        transform: scale(.4);
-        bottom: -55px;
-        left: -50px;
+        transform: scale(.5);
+        bottom: -47px;
+        left: -35px;
     }
 
     .bagian-isi-bawah {
-        height: 630px;
+        height: 820px;
     }
 }
 
@@ -1947,22 +2232,23 @@ body {
     .bagian-isi-atas {
         margin-left: -190px;
     }
-}
 
-@media screen and (max-width: 425px) {
-    .kumpulan-card-bagian-isi-bawah {
-        margin-left: -195px;
+    .bagian-footer-atas {
+        margin-left: 55px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -250px;
+        margin-left: -263px
     }
 
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -192px;
+    }
 }
 
 @media screen and (max-width: 410px) {
     .bagian-footer-atas {
-        margin-left: 18px;
+        margin-left: 50px;
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
@@ -1972,20 +2258,76 @@ body {
     .bagian-isi-atas {
         margin-left: -198px;
     }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -272px
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: -200px;
+    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 405px) {
+    .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
+        transform: scale(.55);
+        bottom: -42px;
+        left: -35px;
+    }
+
+    .gambar-kubik-bagian-isi-bawah-1 {
+        display: block;
+        top: 160px;
+        width: 30px;
+    }
+
+    .gambar-plus-bagian-isi-bawah-1 {
+        top: 15px;
+        width: 55px;
+    }
+
+    .bagian-isi-bawah {
+        height: 1290px;
+    }
+
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -210px;
+        transform: scale(.62);
+        margin-left: 40px;
+        margin-top: -300px;
+        width: 300px;
+    }
+
+    .card-bagian-isi-bawah-3 {
+        margin-top: auto !important;
+    }
+
+    .card-bagian-isi-bawah {
+        margin-bottom: 40px !important;
+    }
+
+    .gambar-kubik-bagian-isi-bawah-2 {
+        bottom: 60px;
+        width: 50px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -265px;
+        transform: scale(.37);
+        margin-top: -20px;
+        text-align: center;
+        margin-left: -130px;
+        width: 650px;
     }
 
+    .gambar-plus-bagian-isi-bawah {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 395px) {
+    .bagian-footer-atas {
+        margin-left: 45px;
+    }
+
     .bagian-isi-atas {
         margin-left: -206px;
     }
@@ -1996,14 +2338,22 @@ body {
 }
 
 @media screen and (max-width: 385px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: 30px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -140px;
+    }
+
     .bagian-footer-atas {
-        margin-left: 10px;
+        margin-left: 40px;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .gambar-plus-bagian-isi-bawah {
-        display: none;
+    .kumpulan-card-bagian-isi-bawah {
+        margin-top: -310px;
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
@@ -2016,33 +2366,52 @@ body {
 
     .kumpulan-tulisan-bagian-isi-bawah {
         transform: scale(.35);
-        width: 600px;
-        margin-left: -100px;
+        margin-top: -25px;
+        margin-left: -140px;
     }
 
     .tulisan-inti-bagian-isi-bawah {
         text-align: center;
     }
-}
 
-@media screen and (max-width: 370px) {
-    .bagian-footer-atas {
-        margin-left: 0px;
+    .gambar-kubik-bagian-isi-bawah-1 {
+        top: 155px;
+    }
+
+    .bagian-isi-bawah {
+        height: 1270px;
     }
 }
 
 @media screen and (max-width: 375px) {
+    .bagian-footer-atas {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .bagian-footer-atas {
+        margin-left: 30px;
+    }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -105px;
+        margin-left: -145px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -220px;
+        margin-left: 25px;
     }
 }
 
 @media screen and (max-width: 365px) {
+    .gambar-plus-bagian-isi-bawah-1 {
+        display: none;
+    }
+
+    .gambar-kubik-bagian-isi-bawah-1 {
+        top: 145px;
+    }
+
     .kumpulan-tulisan-bagian-header-bawah {
         margin-left: -30px;
     }
@@ -2050,11 +2419,45 @@ body {
     .bagian-isi-atas {
         margin-left: -220px;
     }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-top: -30px;
+        transform: scale(.33);
+    }
+
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: 24px;
+        margin-top: -320px;
+    }
+
+    .bagian-isi-bawah {
+        height: 1260px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .bagian-footer-atas {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 350px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-top: -310px;
+    }
+    .gambar-plus-bagian-isi-bawah-1 {
+        right: 10px;
+    }
+
     .tulisan-kecil-bagian-isi-atas {
-        transform: scale(1.22);
+        transform: scale(1.42);
+        margin-left: 50px;
+    }
+
+    .gambar-titik-titik-bagian-isi-atas {
+        transform: scale(.85);
+        bottom: 25px;
+        left: -10px;
     }
 
     .kumpulan-tulisan-bagian-isi-atas {
@@ -2064,17 +2467,17 @@ body {
     }
 
     .bagian-isi-bawah {
-        margin-top: -430px;
+        margin-top: -410px;
     }
 
     .bagian-isi-atas {
-        transform: scale(.32);
-        margin-top: -460px;
+        transform: scale(.35);
+        margin-top: -440px;
         margin-left: -225px;
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
-        transform: scale(.45);
+        transform: scale(.6);
         text-align: center;
         margin-left: -36px;
     }
@@ -2089,53 +2492,22 @@ body {
         margin-top: 20px;
     }
 
-    .gambar-kubik-bagian-isi-bawah-2 {
-        bottom: 60px;
-    }
-
-    .kumpulan-tulisan-bagian-isi-bawah {
-        transform: scale(.32);
-        margin-top: -60px;
-        margin-left: -130px;
-    }
-
-
-    .card-bagian-isi-bawah-3 {
-        margin-top: auto !important;
-    }
-
-    .card-bagian-isi-bawah {
-        margin-bottom: 40px !important;
-    }
-
-    .kumpulan-card-bagian-isi-bawah {
-        transform: scale(.55);
-        margin-left: 10px;
-        margin-top: -335px;
-        width: 300px;
-    }
-
-    .bagian-isi-bawah {
-        height: 980px;
-    }
-
     .bagian-footer-atas {
-        margin-left: 60px;
-        width: 210px;
-        margin-top: 30px;
-        height: 450px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .bagian-footer-bawah {
+        margin-top: -60px;
     }
 
     .kumpulan-gambar-kampus-bagian-footer-atas {
-        transform: scale(.55);
-        width: 400px;
-        margin-left: -96px;
-        margin-top: -150px;
+        transform: scale(.68);
+        margin-top: -85px;
     }
 
     .tulisan-inti-bagian-footer-atas {
-        transform: scale(.52);
-        margin-left: -95px;
+        transform: scale(.7);
     }
 
     .parent-gambar-kampus-bagian-footer-atas {
@@ -2144,6 +2516,14 @@ body {
 }
 
 @media screen and (max-width: 340px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: 16px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -155px;
+    }
+
     .kumpulan-tulisan-bagian-header-bawah {
         margin-left: -45px;
     }
@@ -2151,23 +2531,39 @@ body {
     .bagian-isi-atas {
         margin-left: -232px;
     }
+
+    .bagian-footer-atas {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: 11px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -157px;
+    }
+
+    .bagian-footer-atas {
+        margin-left: 13px;
+    }
 }
 
 @media screen and (max-width: 325px) {
-    .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -140px;
-    }
-
     .kumpulan-tulisan-bagian-header-bawah {
         margin-left: -52px;
     }
 
-    .kumpulan-card-bagian-isi-bawah {
-        margin-left: 0px;
-    }
-
     .bagian-isi-atas {
         margin-left: -238px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bagian-footer-atas {
+        margin-left: 9px;
     }
 }
 
@@ -2182,12 +2578,30 @@ body {
 }
 
 @media screen and (max-width: 315px) {
+    .kumpulan-card-bagian-isi-bawah {
+        margin-left: 5px;
+    }
+
     .bagian-footer-atas {
-        margin-left: 45px;
+        margin-left: 5px;
+    }
+
+    .kumpulan-tulisan-bagian-isi-bawah {
+        margin-left: -165px;
     }
 }
 
 @media screen and (max-width: 310px) {
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.5);
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .bagian-header-bawah {
+        height: 230px;
+    }
+
     .none {
         position: absolute;
         top: -60px;
@@ -2201,43 +2615,19 @@ body {
         margin-top: 10px;
     }
 
-    .navbar-hamburger-menu {
-        font-size: 11.5px;
-        height: 40px;
-    }
-
-    .kumpulan-navbar-hamburger-menu {
-        top: 44px;
-        height: 160px;
-    }
-
     .kumpulan-tulisan-bagian-header-bawah {
-        margin-top: -120px;
+        transform: scale(.55);
+        margin-top: -90px;
         margin-left: -62px;
     }
 
     .gambar-kubik-bagian-header-bawah-a {
-        top: -55px;
-    }
-
-    .hamburger-menu {
-        transform: scale(.58);
-        right: 12px;
-        top: 18px;
-    }
-
-    .gambar-logo-educare-bagian-header-atas-2 {
-        transform: scale(.45);
-        margin-left: -25px;
-    }
-
-    .bagian-header-atas-2 {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        top: -50px;
+        width: 13px;
     }
 
     .bagian-footer-bawah {
-        margin-top: -10px;
+        margin-top: -90px;
     }
 
     .kumpulan-informasi-dari-kumpulan-inti-footer {
@@ -2253,61 +2643,94 @@ body {
     }
 
     .bagian-footer-atas {
-        width: 120px;
-        margin-left: 90px;
-        margin-top: 25px;
+        width: 230px;
+        margin-left: 37px;
+        margin-top: 10px;
     }
 
     .kumpulan-gambar-kampus-bagian-footer-atas {
-        transform: scale(.5);
-        margin-top: -170px;
-        margin-left: -140px;
+        transform: scale(.6);
+        margin-top: -130px;
+        margin-left: -35px;
     }
 
     .tulisan-inti-bagian-footer-atas {
-        transform: scale(.47);
-        margin-left: -140px;
+        transform: scale(.6);
+        margin-left: -85px;
     }
 
     .bagian-isi-bawah {
-        height: 860px;
+        height: 1110px;
         margin-top: -450px;
     }
 
     .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
-        bottom: -64px;
-        left: -60px;
-        transform: scale(.3);
+        bottom: -47px;
+        left: -40px;
+        transform: scale(.5);
     }
 
     .gambar-kubik-bagian-isi-bawah-2 {
         bottom: 45px;
-        width: 37px;
+        width: 45px;
+    }
+
+    .gambar-titik-titik-bagian-isi-atas {
+        bottom: 20px;
     }
 
     .gambar-kubik-bagian-isi-bawah-1 {
-        width: 22px;
-        top: 98px;
-    }
-
-    .gambar-plus-bagian-isi-bawah-1 {
-        top: 20px;
-        width: 32px;
+        width: 26px;
+        top: 128px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
         margin-top: -380px;
-        transform: scale(.5);
+        transform: scale(.55);
+        margin-left: 0px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-top: -70px;
-        transform: scale(.28);
+        margin-top: -45px;
+        margin-left: -171px;
+        transform: scale(.29);
+    }
+
+    .tulisan-inti-bagian-header-bawah {
+        width: 450px;
+        margin-left: -15px;
     }
 
     .bagian-isi-atas {
         transform: scale(.3);
         margin-top: -475px;
+    }
+
+    .hamburger-menu {
+        transform: scale(.65);
+        right: 10px;
+        top: 23px;
+    }
+
+    .bagian-header-atas-2 {
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+    .gambar-logo-educare-bagian-header-atas-2 {
+        transform: scale(.5);
+        margin-left: -25px;
+    }
+
+    .navbar-hamburger-menu {
+        font-size: 13px;
+        height: 45px;
+    }
+
+    .kumpulan-navbar-hamburger-menu {
+        height: 180px;
+        top: 54px;
     }
 }
 
@@ -2321,6 +2744,12 @@ body {
     }
 }
 
+@media screen and (max-width: 300px) {
+    .bagian-footer-atas {
+        margin-left: 30px;
+    }
+}
+
 @media screen and (max-width: 292px) {
     .kumpulan-tulisan-bagian-header-bawah {
         margin-left: -68px;
@@ -2331,20 +2760,17 @@ body {
     }
 }
 
-@media screen and (max-width: 295px) {
+@media screen and (max-width: 290px) {
+    .bagian-footer-atas {
+        margin-left: 27px;
+    }
+
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -8px;
+        margin-left: -7px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -151px;
-    }
-}
-
-
-@media screen and (max-width: 290px) {
-    .bagian-footer-atas {
-        margin-left: 80px;
+        margin-left: -179px;
     }
 }
 
@@ -2357,25 +2783,26 @@ body {
     .bagian-isi-atas {
         margin-left: -261px;
     }
+
+    .bagian-footer-atas {
+        margin-left: 21px;
+    }
 }
 
 @media screen and (max-width: 280px) {
-    .gambar-plus-bagian-isi-bawah-1 {
-        right: 10px;
-    }
-
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -15px;
+        margin-left: -13px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -158px;
+        margin-left: -185px;
     }
+
 }
 
 @media screen and (max-width: 275px) {
     .bagian-footer-atas {
-        margin-left: 75px;
+        margin-left: 17px;
     }
 }
 
@@ -2395,15 +2822,24 @@ body {
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -162px;
+        margin-left: -190px;
     }
 
     .bagian-footer-atas {
-        margin-left: 70px;
+        margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 265px) {
+    .tulisan-kecil-bagian-isi-atas {
+        transform: scale(1.55);
+        margin-left: 65px;
+    }
+
+    .bagian-footer-atas {
+        height: 540px;
+    }
+
     .bagian-footer-bawah {
         margin-top: -50px;
         height: 220px;
@@ -2422,58 +2858,49 @@ body {
     }
 
     .kumpulan-gambar-kampus-bagian-footer-atas {
-        transform: scale(.45);
-        margin-top: -190px;
-        margin-left: -145px;
+        transform: scale(.53);
+        margin-top: -160px;
     }
 
     .tulisan-inti-bagian-footer-atas {
-        margin-left: -143px;
-        margin-top: -60px;
-        transform: scale(.43);
+        transform: scale(.55);
     }
 
     .kumpulan-gambar-tanaman-dan-papan-tulis-bagian-isi-bawah {
-        bottom: -68px;
-        left: -70px;
-        transform: scale(.25);
+        bottom: -56px;
+        left: -50px;
+        transform: scale(.4);
     }
 
     .gambar-kubik-bagian-isi-bawah-2 {
-        width: 33px;
+        width: 38px;
         bottom: 30px;
     }
 
     .gambar-kubik-bagian-isi-bawah-1 {
-        top: 85px;
-        width: 20px;
-    }
-
-    .gambar-plus-bagian-isi-bawah-1 {
-        top: 15px;
-        width: 29px;
+        top: 110px;
+        width: 24px;
     }
 
     .kumpulan-card-bagian-isi-bawah {
-        margin-top: -435px;
-        margin-left: -27px;
-        transform: scale(.43);
+        margin-top: -440px;
+        margin-left: -21px;
+        transform: scale(.48);
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        transform: scale(.24);
-        margin-top: -80px;
-        margin-left: -168px;
+        transform: scale(.26);
+        margin-top: -60px;
     }
 
     .bagian-isi-bawah {
-        margin-top: -490px;
-        height: 745px;
+        margin-top: -470px;
+        height: 975px;
     }
 
     .bagian-isi-atas {
-        transform: scale(.25);
-        margin-top: -555px;
+        transform: scale(.27);
+        margin-top: -540px;
         margin-left: -270px;
     }
 
@@ -2484,13 +2911,19 @@ body {
 
     .gambar-kubik-bagian-header-bawah-a {
         width: 11px;
-        top: -60px;
+        top: -50px;
     }
 
     .kumpulan-tulisan-bagian-header-bawah {
-        transform: scale(.4);
-        margin-top: -135px;
+        transform: scale(.45);
+        margin-top: -115px;
         margin-left: -85px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .bagian-footer-atas {
+        margin-left: 11px;
     }
 }
 
@@ -2504,19 +2937,26 @@ body {
     }
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 251px) {
     .bagian-footer-atas {
-        margin-left: 65px;
+        margin-left: 7px;
     }
 }
 
-@media screen and (max-width: 245px) {
+
+@media screen and (max-width: 250px) {
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -31px;
+        margin-left: -26px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -173px;
+        margin-left: -195px;
+    }
+}
+
+@media screen and (max-width: 241px) {
+    .bagian-footer-atas {
+        margin-left: 0px;
     }
 }
 
@@ -2529,21 +2969,15 @@ body {
         margin-left: -283px;
     }
 
-    .bagian-footer-atas {
-        margin-left: 60px;
-    }
-}
 
-@media screen and (max-width: 235px) {
     .kumpulan-card-bagian-isi-bawah {
-        margin-left: -36px;
+        margin-left: -32px;
     }
 
     .kumpulan-tulisan-bagian-isi-bawah {
-        margin-left: -178px;
+        margin-left: -200px;
     }
 }
-
 
 @media screen and (max-width: 230px) {
     .kumpulan-tulisan-bagian-header-bawah {
@@ -2555,6 +2989,12 @@ body {
     }
 
     .bagian-footer-atas {
-        margin-left: 55px;
+        margin-left: -5px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .bagian-isi-atas {
+        width: 90%;
     }
 }

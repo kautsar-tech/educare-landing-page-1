@@ -15,13 +15,13 @@ function funcAtas2() {
 }
 
 function funcAtas3() {
-    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.querySelector('.keunggulan-bagian-isi-atas-3').classList.add("keunggulan-bagian-isi-atas-spesial")
     }
 }
 
 function funcAtas4() {
-    if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
+    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
         document.querySelector('.keunggulan-bagian-isi-atas-4').classList.add("keunggulan-bagian-isi-atas-spesial")
     }
 }
@@ -44,7 +44,7 @@ function funcPutarY() {
 }
 
 function funcPutarX1() {
-    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+    if (document.body.scrollTop > 1450 || document.documentElement.scrollTop > 1450) {
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-1').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-2').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-3').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
