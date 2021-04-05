@@ -48,6 +48,7 @@ function funcPutarX1() {
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-1').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-2').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
         document.querySelector('.parent-gambar-kampus-bagian-footer-atas-3').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
+        document.querySelector('.parent-gambar-kampus-bagian-footer-atas-4').classList.add("parent-gambar-kampus-bagian-footer-atas-spesial")
     }
 }
 
